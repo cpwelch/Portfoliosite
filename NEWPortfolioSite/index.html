@@ -1,91 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c5c2641cf5.js" crossorigin="anonymous"></script>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c5c2641cf5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
     <title>CW Portfolio</title>
-</head>
-<body>
-    
-        <nav class="navBar hidden ">
-            <ul class="navList">
-                <li class="list">Home</li>
-                <li class="list">My Skills</li>
-                <li class="list">Portfolio</li>
-                <li class="list">Contact</li>
-                <li><a href="https://www.linkedin.com/in/connor-welch-9370a7b0/" target="_blank"><i class="fa-brands fa-linkedin list"></i></a>
-                <a href="https://github.com/cpwelch" target="_blank"><i class="fa-brands fa-github list"></i></a></li>
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <nav class="navBar hidden">
+      <ul class="navList">
+        <li class="list">Home</li>
+        <li class="list">My Skills</li>
+        <li class="list">Portfolio</li>
+        <li class="list">Contact</li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/connor-welch-9370a7b0/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin list"></i
+          ></a>
+          <a href="https://github.com/cpwelch" target="_blank"
+            ><i class="fa-brands fa-github list"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
 
-        <div class="toggle-button">
-            <span class="bar barS"></span>
-            <span class="bar"></span>
-            <span class="bar barS"></span>
-        </div>
-        <div class="close-button hidden">
-          <span class="close">&times</span>
-      </div>
+    <div class="toggle-button">
+      <span class="bar barS"></span>
+      <span class="bar"></span>
+      <span class="bar barS"></span>
+    </div>
+    <div class="close-button hidden">
+      <span class="close">&times</span>
+    </div>
 
-    <div class="cpw"> 
-      <img class="landingImg" src="landingPhoto.png" alt="">
+    <div class="cpw">
+      <img class="landingImg" src="landingPhoto.png" alt="" />
 
       <div class="speechBubble">
-      <div class="landingText"> <p class="speechText">Hello and thanks for stopping by!
-        
-        </p></div>
+        <div class="landingText">
+          <p>
+            <span class="speechText"></span>
+            <span class="cursor">&nbsp;</span>
+          </p>
+        </div>
         <div class="triangle"></div>
       </div>
 
       <h1>connor welch.</h1>
-    <h2>Full Stack Developer <span class="slashes">//</span> UI & UX designer <span class="slashes">//</span></h2> 
-     <div><button class=" btn fill">Contact Me</button></div>
-        </div>
-    
-
-<div class="portfolio">
-    <h3 class="portfolioTitle">A collection of my most recent work & projects<span class="slashes"> //</span></h3>
-    <div class="portfolioGrid">
-      <div class="projectWrapper"><img class="show-modal" src="wildRose.png" alt="">
-        <div class="textWrapper">
-        <h4>Wild Rose Yogi</h4>
-        <h5 class="websiteLink">VISIT THE WEBSITE</h5>
-        <hr class="textLine">
-      </div></div>
-      <div class="projectWrapper"><img class="show-modal" src="JBLogo6v2.png" alt="">
-        <div class="textWrapper">
-          <h4>JB Luxury Bathrooms</h4>
-          <h5 class="websiteLink">VISIT THE WEBSITE</h5>
-        <hr class="textLine">        </div></div>
-      <div class="projectWrapper"><img class="show-modal" src="lesVallees.png" alt="">
-        <div class="textWrapper">
-          <h4>Les Vallees</h4>
-          <h5 class="websiteLink">VISIT THE WEBSITE</h5>
-        <hr class="textLine">        </div></div>
-      <div class="projectWrapper"><img class="show-modal" src="Zense2.png" alt="">
-        <div class="textWrapper">
-          <h4>Zense</h4>
-          <h5 class="websiteLink">VISIT THE WEBSITE</h5>
-        <hr class="textLine">        </div></div>
-        
-        
+      <h2>Full Stack Developer <span class="slashes">//</span></h2>
+      <div><button class="btn fill">Contact Me</button></div>
     </div>
-</div> 
 
-<div class="skills"></div>
+    <div class="portfolio">
+      <h3 class="portfolioTitle">
+        A collection of recent work & projects<span class="slashes"> //</span>
+      </h3>
+      <div class="portfolioGrid">
+        <div class="projectWrapper">
+          <img class="portfolio-img" src="wildRose.png" alt="" />
+          <img class="alt-img" src="wild-rose-webshot.png" alt="" />
+          <div class="textWrapper">
+            <h4>Wild Rose Yogi</h4>
+            <h5 class="websiteLink">VISIT THE WEBSITE</h5>
+            <hr class="textLine" />
+            <ul class="projectFeatures">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Express/Node JS</li>
+            </ul>
+            <h6 class="codeLink">VIEW CODE</h6>
+          </div>
+        </div>
+        <div class="projectWrapper">
+          <img class="portfolio-img" src="JBLogo6v2.png" alt="" />
+          <img class="alt-img" src="JB-bathrooms-webshot.png" alt="" />
 
+          <div class="textWrapper">
+            <h4>JB Luxury Bathrooms</h4>
+            <h5 class="websiteLink">VISIT THE WEBSITE</h5>
+            <hr class="textLine" />
+            <ul class="projectFeatures">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Express/Node JS</li>
+              <h6 class="codeLink">VIEW CODE</h6>
+            </ul>
+          </div>
+        </div>
+        <div class="projectWrapper">
+          <img class="portfolio-img" src="lesVallees.png" alt="" />
+          <div class="textWrapper">
+            <h4>Les Vallees</h4>
+            <h5 class="websiteLink">VISIT THE WEBSITE</h5>
+            <hr class="textLine" />
+          </div>
+        </div>
+        <div class="projectWrapper">
+          <img class="portfolio-img" src="Zense2.png" alt="" />
+          <div class="textWrapper">
+            <h4>Zense</h4>
+            <h5 class="websiteLink">VISIT THE WEBSITE</h5>
+            <hr class="textLine" />
+          </div>
+        </div>
+      </div>
+    </div>
 
-<div class="contactMe">
-    <h3 class="contactTitle">Want to work together? You know what to do<span class="slashes"> //</span></h3>
-    <form class="contact-form ">
-     
-        <input type="text" id="name" placeholder=" Full Name" required /> 
+    <div class="skills"></div>
+
+    <div class="contactMe">
+      <h3 class="contactTitle">
+        Want to work together? You know what to do<span class="slashes">
+          //</span
+        >
+      </h3>
+      <form class="contact-form">
+        <input type="text" id="name" placeholder=" Full Name" required />
         <input type="email" id="email" placeholder=" Email Address" required />
         <br />
         <input
@@ -94,7 +143,12 @@
           placeholder=" Contact Number"
           required
         />
-        <input type="text" id="business" placeholder=" Business Name" required /> 
+        <input
+          type="text"
+          id="business"
+          placeholder=" Business Name"
+          required
+        />
 
         <br />
         <input type="text" id="subject" placeholder=" Subject" required />
@@ -104,38 +158,15 @@
           placeholder=" Message"
           cols="30"
           rows="10"
-          style="resize: none;"
+          style="resize: none"
         ></textarea
         ><br />
-        <button type="submit"  class="btn fill" value="Send Enquiry">Send Enquiry</button>
+        <button type="submit" class="btn fill" value="Send Enquiry">
+          Send Enquiry
+        </button>
       </form>
-</div> 
+    </div>
 
-<div class="modal hidden">
-    <button class="close-modal">&times;</button>
-  </div>
-  <div class="overlay hidden"></div>
-</div>
-<div class="modal hidden" >
-    <button class="close-modal" >&times;</button> 
-  </div>
-  <div class="overlay hidden"></div>
-</div>
-<div class="modal hidden" >
-  <button class="close-modal">&times;</button>
-</div>
-<div class="overlay hidden"></div>
-</div>
-<div class="modal hidden" >
-    <button class="close-modal">&times;</button>
-  </div>
-  <div class="overlay hidden"></div>
-</div>
-
-
-
-</body>
-<script src="script.js"></script>
-</body>
-</html>
+    <script src="script.js"></script>
+  </body>
 </html>
